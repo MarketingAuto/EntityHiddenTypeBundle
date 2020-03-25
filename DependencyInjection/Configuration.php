@@ -17,8 +17,8 @@ class Configuration implements ConfigurationInterface
      */
     public function getConfigTreeBuilder()
     {
-        $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('glifery_entity_hidden_type');
+        $treeBuilder = new TreeBuilder('glifery_entity_hidden_type);
+        //$rootNode = $treeBuilder->root('glifery_entity_hidden_type');
 
         // Here you should define the parameters that are allowed to
         // configure your bundle. See the documentation linked above for
